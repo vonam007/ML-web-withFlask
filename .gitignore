@@ -16,9 +16,6 @@ env/
 *.swp
 *.swo
 
-# Compiled static files
-/static/
-
 # Log files
 /log/
 

@@ -1,0 +1,44 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environment
+venv/
+env/
+.env
+.venv
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled static files
+/static/
+
+# Log files
+/log/
+
+# Database files
+.db
+
+# Compiled translations
+/translations/
+
+# Environment-specific files
+.env
+.env.*
+*.ini
+
+# Package files
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Miscellaneous
+*.pyc
+.DS_Store

@@ -1,0 +1,77 @@
+<!-- create html page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- the icon of tab is a svg -->
+
+    <link rel="icon" href="{{ url_for('static', filename='resource/icon.svg') }}" />
+    <title>HandWriting Recognization</title>
+    <!-- include css -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/style.css') }}" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.css"
+    />
+    <!-- include js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>WELCOME</h1>
+    </div>
+    <div class="movedown_btn_container">
+      <button class="movedown_btn" onclick="scrollToElement()"><i class="bx bx-down-arrow-alt"></i></button>
+    </div>
+    <div class="input">
+      <div class="btn_container" id="targetElement">
+        <button class="uploadbtn" id="uploadbtn">Upload</button>
+      </div>
+      <form action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="inputFile" id="fileinput" />
+        <input type="submit" value="Predict" class="hiddenbtn" id="hiddenbtn" />
+      </form>
+    </div>
+    {% if prediction %}
+    <div class="crop" id="crop">
+      <img src="{{ url_for('static', filename='resource/meme.jpg') }}" alt="image" id="img" />
+    </div>
+    {% else %}
+    <div class="crop" id="crop">
+      <img src="{{ url_for('static', filename='resource/imgHolder.jpg') }}" alt="image" id="img" />
+    </div>
+    {% endif %}
+    <div class="cropped">
+      <div class="btn_container">
+        <button class="predictbtn" id="predictbtn">Predict</button>
+      </div>
+      <div id="new_img"></div>
+    </div>
+    <div class="result">
+      {% if prediction %}
+      <div><p class="text">Result</p></div>
+      <div class="content">{{prediction}}</div>
+      <div class="img_result_container">
+        <img src="{{ url_for('static', filename= image_url ) }}" alt="Image" class="img_result">
+      </div>
+      <script>
+        window.onload = function() {
+          window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+          });
+        };
+      </script>
+      {% endif %}
+    </div>
+    <script src="{{ url_for('static', filename='js/crop.js') }}"></script>
+  </body>
+  <footer></footer>
+</html>

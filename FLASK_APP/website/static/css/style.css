@@ -16,6 +16,47 @@ body {
   flex-direction: column;
   text-align: center;
 }
+.nav-container {
+  display: flex;
+  flex-direction: row;;
+  width: 100%;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 999;
+}
+.nav-container .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav-container .logo {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  left: 1rem;
+  margin-left: 2rem;
+}
+.nav-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  right: 1rem;
+  list-style: none;
+}
+.nav-container li a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
 
 .header h1 {
   margin: 0;
@@ -24,7 +65,7 @@ body {
   width: auto;
   scale: 300%;
   position: relative;
-  margin: 24rem 0;
+  margin: 22rem 0;
 }
 .btn_container {
   margin: 0 0 5rem 0;
@@ -52,7 +93,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 15rem 0 2.5rem 0;
+  margin: 5rem 0 2.5rem 0;
 }
 .input .uploadbtn {
   background-color: #333;
@@ -84,6 +125,61 @@ body {
   display: none;
 }
 
+.selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 12rem 0 10rem 0;
+  align-items: center;
+}
+.selection a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8rem 10rem;
+}
+.selection .predict-btn {
+  background-color: #333;
+  border: none;
+  padding: 8rem 6rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10rem 2rem;
+  width: auto;
+  transition: all 0.3s ease-in-out;
+}
+.selection .predict-btn:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+.selection .predict-btn:hover a {
+  color: #333;
+}
+
+.selection .crop-btn {
+  background-color: #333;
+  
+  border: none;
+  padding: 8rem 6rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10rem 2rem;
+  width: auto;
+  transition: all 0.3s ease-in-out;
+}
+.selection .crop-btn:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+.selection .crop-btn:hover  a {
+  color: #333;
+}
+
 .crop {
   display: flex;
   flex-direction: column;
@@ -101,6 +197,10 @@ body {
   max-width: 600px;
 }
 
+.logo a{
+  color: #000000;
+  text-decoration: none;
+}
 .cropped {
   display: flex;
   flex-direction: column;
@@ -159,6 +259,7 @@ body {
   margin-top: 2rem;
   display: flex;
   width: auto;
+  justify-content: center;
 }
 /* footer {
   margin-top: 5rem;

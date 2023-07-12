@@ -2,7 +2,7 @@ import os
 import numpy as np
 import cv2
 import pathlib
-from flask import request, url_for
+from flask import request
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, LSTM, Reshape, BatchNormalization, Input, Conv2D, MaxPool2D, Lambda, Bidirectional, Add, Activation
 from tensorflow.keras.models import Model
@@ -47,7 +47,6 @@ def read_image(path):
 
 def prepare_model():
 
-    
     # input with shape of height=32 and width=128
     inputs = Input(shape=(118,2167,1))
 

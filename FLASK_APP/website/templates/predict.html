@@ -1,0 +1,48 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="input">
+    <div class="btn_container" >
+      <button class="uploadbtn" id="uploadbtn">Upload</button>
+    </div>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+      <input type="file" name="inputFile" id="fileinput" />
+      <input type="submit" value="Predict" class="hiddenbtn" id="hiddenbtn" />
+    </form>
+</div>
+{% if prediction %}
+
+<div class="crop" id="crop">
+    <img src="{{ url_for('static', filename='resource/meme.jpg') }}" alt="image" id="img" />
+</div>
+{% else %}
+<div class="crop" id="crop">
+    <img src="{{ url_for('static', filename='resource/imgHolder.jpg') }}" alt="image" id="img" />
+</div>
+{% endif %}
+<div class="cropped">
+    <div class="btn_container">
+    <button class="predictbtn" id="predictbtn">Predict</button>
+    </div>
+    <div id="new_img"></div>
+</div>
+<div class="result">
+    {% if prediction %}
+    <div><p class="text">Result</p></div>
+    <div class="content">{{prediction}}</div>
+    <div class="img_result_container">
+    <img src="{{ url_for('static', filename= image_url ) }}" alt="Image" class="img_result">
+    </div>
+    <script>
+    window.onload = function() {
+        window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+        });
+    };
+    </script>
+    {% endif %}
+</div>
+<script src="{{ url_for('static', filename='js/crop.js') }}"></script>
+
+{% endblock %}

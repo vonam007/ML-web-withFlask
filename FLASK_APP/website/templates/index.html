@@ -13,65 +13,53 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.css"
-    />
     <!-- include js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+    {% block head %}
+
+    {% endblock %}
   </head>
   <body>
+    <div class="nav-container">
+      <nav class="navbar">
+        <div class="logo" ><a class="nav-link" href="/" method="GET">HandWriting</a></div>
+        <div class="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/" method="GET">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/predict" method="GET">Predict</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/crop" method="GET" >Crop</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    {% block  content %}
     <div class="header">
       <h1>WELCOME</h1>
     </div>
     <div class="movedown_btn_container">
       <button class="movedown_btn" onclick="scrollToElement()"><i class="bx bx-down-arrow-alt"></i></button>
     </div>
-    <div class="input">
-      <div class="btn_container" id="targetElement">
-        <button class="uploadbtn" id="uploadbtn">Upload</button>
+    <div class="selection" id="targetElement">
+      <div class="predict-btn">
+        <a class="nav-link" href="/predict" method="GET">Predict</a>
       </div>
-      <form action="/" method="POST" enctype="multipart/form-data">
-        <input type="file" name="inputFile" id="fileinput" />
-        <input type="submit" value="Predict" class="hiddenbtn" id="hiddenbtn" />
-      </form>
-    </div>
-    {% if prediction %}
-    <div class="crop" id="crop">
-      <img src="{{ url_for('static', filename='resource/meme.jpg') }}" alt="image" id="img" />
-    </div>
-    {% else %}
-    <div class="crop" id="crop">
-      <img src="{{ url_for('static', filename='resource/imgHolder.jpg') }}" alt="image" id="img" />
-    </div>
-    {% endif %}
-    <div class="cropped">
-      <div class="btn_container">
-        <button class="predictbtn" id="predictbtn">Predict</button>
+      <div class="crop-btn">
+        <a class="nav-link" href="/crop" method="GET" >Crop</a>
       </div>
-      <div id="new_img"></div>
     </div>
-    <div class="result">
-      {% if prediction %}
-      <div><p class="text">Result</p></div>
-      <div class="content">{{prediction}}</div>
-      <div class="img_result_container">
-        <img src="{{ url_for('static', filename= image_url ) }}" alt="Image" class="img_result">
-      </div>
-      <script>
-        window.onload = function() {
-          window.scrollTo({
-            top: document.body.scrollHeight,
-            behavior: 'smooth'
-          });
-        };
-      </script>
-      {% endif %}
-    </div>
-    <script src="{{ url_for('static', filename='js/crop.js') }}"></script>
+    <script>
+      function scrollToElement() {
+        document.getElementById("targetElement").scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+    {% endblock %}
   </body>
   <footer></footer>
 </html>

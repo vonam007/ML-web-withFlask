@@ -26,10 +26,22 @@ def saveimg(img):
         print("Có lỗi xảy ra khi lưu trữ hình ảnh!")
     return img_path
 
-@auth.route('/', methods=['POST'])
-def result():
+@auth.route('/', methods=['GET'])
+def index():
+    return render_template("index.html")
+
+@auth.route('/crop', methods=['GET'])
+def crop():
+    return render_template("crop.html")
+
+@auth.route('/predict', methods=['GET'])
+def predicts():
+    return render_template("predict.html")
+
+@auth.route('/predict', methods=['POST'])
+def result():   
     img = request.files['inputFile']
     img_path = saveimg(img)
     pred = predict(img_path)
     img_src = 'uploads/' + img.filename
-    return render_template("index.html", prediction = pred, image_url = img_src)
+    return render_template("predict.html", prediction = pred, image_url = img_src)

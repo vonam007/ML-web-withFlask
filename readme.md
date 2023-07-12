@@ -29,5 +29,5 @@ Step 3: run predict.py for prediction or run evaluation.py to evaluate model
 -----------------------------
 Division of work:   
 Trần Quang Nhật - 20520675: Trained model, Evaluated model, Searched related documents   
-Võ Thành Thái - 20520305: Searched dataset, built website interface and functions
+Võ Thành Thái - 20520305: Searched dataset, built website interface and functions   
 Võ Nguyễn Hoài Nam - 20520645: Deploy the website, converted h5 model to json, loaded model to website

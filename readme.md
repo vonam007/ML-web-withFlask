@@ -23,7 +23,7 @@ try demo our app: https://vonam007.pythonanywhere.com/
 -----------------------------
 ###How to use model:###   
 Step 1: check GPU by run check_gpu.py. You need to have GPU for training model   
-(Or use my pretrained with 67 epochs and reach loss: 0.08)   
+(Or use my pretrained with 67 epochs and reach loss: 0.08 - https://1drv.ms/u/s!Atb46kl_Ra3rjipFvchBwKyOUSGu?e=GLpuGi)   
 Step 2: run train_model.py   
 Step 3: run predict.py for prediction or run evaluation.py to evaluate model   
 -----------------------------

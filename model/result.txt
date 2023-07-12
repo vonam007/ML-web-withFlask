@@ -1,0 +1,275 @@
+1464/1470 [============================>.] - ETA: 0s - loss: 214.1981
+Epoch 00001: val_loss improved from inf to 175.74031, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 159s 108ms/sample - loss: 214.0864 - val_loss: 175.7403
+Epoch 2/100
+1464/1470 [============================>.] - ETA: 0s - loss: 144.8708
+Epoch 00002: val_loss did not improve from 175.74031
+1470/1470 [==============================] - 117s 80ms/sample - loss: 144.7938 - val_loss: 214.4007
+Epoch 3/100
+1464/1470 [============================>.] - ETA: 0s - loss: 121.1450
+Epoch 00003: val_loss did not improve from 175.74031
+1470/1470 [==============================] - 117s 80ms/sample - loss: 121.1148 - val_loss: 224.5865
+Epoch 4/100
+1464/1470 [============================>.] - ETA: 0s - loss: 99.2173
+Epoch 00004: val_loss improved from 175.74031 to 114.90814, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 114s 78ms/sample - loss: 99.1592 - val_loss: 114.9081
+Epoch 5/100
+1464/1470 [============================>.] - ETA: 0s - loss: 78.1733
+Epoch 00005: val_loss improved from 114.90814 to 102.77184, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 142s 97ms/sample - loss: 78.1472 - val_loss: 102.7718
+Epoch 6/100
+1464/1470 [============================>.] - ETA: 0s - loss: 63.2646
+Epoch 00006: val_loss improved from 102.77184 to 77.72414, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 117s 80ms/sample - loss: 63.3152 - val_loss: 77.7241
+Epoch 7/100
+1464/1470 [============================>.] - ETA: 0s - loss: 52.6308
+Epoch 00007: val_loss improved from 77.72414 to 51.80811, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 117s 79ms/sample - loss: 52.6167 - val_loss: 51.8081
+Epoch 8/100
+1464/1470 [============================>.] - ETA: 0s - loss: 43.6738
+Epoch 00008: val_loss improved from 51.80811 to 51.31254, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 129s 88ms/sample - loss: 43.6343 - val_loss: 51.3125
+Epoch 9/100
+1464/1470 [============================>.] - ETA: 0s - loss: 36.7289
+Epoch 00009: val_loss improved from 51.31254 to 40.86560, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 116s 79ms/sample - loss: 36.7202 - val_loss: 40.8656
+Epoch 10/100
+1464/1470 [============================>.] - ETA: 0s - loss: 30.0208
+Epoch 00010: val_loss improved from 40.86560 to 37.98930, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 115s 78ms/sample - loss: 30.1613 - val_loss: 37.9893
+Epoch 11/100
+1464/1470 [============================>.] - ETA: 0s - loss: 25.2165
+Epoch 00011: val_loss did not improve from 37.98930
+1470/1470 [==============================] - 116s 79ms/sample - loss: 25.2026 - val_loss: 39.5270
+Epoch 12/100
+1464/1470 [============================>.] - ETA: 0s - loss: 21.4869
+Epoch 00012: val_loss improved from 37.98930 to 29.36399, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 114s 77ms/sample - loss: 21.4896 - val_loss: 29.3640
+Epoch 13/100
+1464/1470 [============================>.] - ETA: 0s - loss: 17.6416
+Epoch 00013: val_loss improved from 29.36399 to 27.01406, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 114s 77ms/sample - loss: 17.6228 - val_loss: 27.0141
+Epoch 14/100
+1464/1470 [============================>.] - ETA: 0s - loss: 14.8750
+Epoch 00014: val_loss improved from 27.01406 to 24.50342, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 114s 77ms/sample - loss: 14.8826 - val_loss: 24.5034
+Epoch 15/100
+1464/1470 [============================>.] - ETA: 0s - loss: 13.0553
+Epoch 00015: val_loss did not improve from 24.50342
+1470/1470 [==============================] - 113s 77ms/sample - loss: 13.0370 - val_loss: 28.9785
+Epoch 16/100
+1464/1470 [============================>.] - ETA: 0s - loss: 10.7801
+Epoch 00016: val_loss did not improve from 24.50342
+1470/1470 [==============================] - 114s 78ms/sample - loss: 10.7684 - val_loss: 26.0458
+Epoch 17/100
+1464/1470 [============================>.] - ETA: 0s - loss: 9.1702
+Epoch 00017: val_loss improved from 24.50342 to 24.31653, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 119s 81ms/sample - loss: 9.1697 - val_loss: 24.3165
+Epoch 18/100
+1464/1470 [============================>.] - ETA: 0s - loss: 8.0084
+Epoch 00018: val_loss did not improve from 24.31653
+1470/1470 [==============================] - 121s 82ms/sample - loss: 7.9961 - val_loss: 27.1154
+Epoch 19/100
+1464/1470 [============================>.] - ETA: 0s - loss: 6.8838
+Epoch 00019: val_loss did not improve from 24.31653
+1470/1470 [==============================] - 125s 85ms/sample - loss: 6.8960 - val_loss: 26.0324
+Epoch 20/100
+1464/1470 [============================>.] - ETA: 0s - loss: 5.1098
+Epoch 00020: val_loss improved from 24.31653 to 19.97581, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 133s 91ms/sample - loss: 5.0988 - val_loss: 19.9758
+Epoch 21/100
+1464/1470 [============================>.] - ETA: 0s - loss: 4.4673
+Epoch 00021: val_loss did not improve from 19.97581
+1470/1470 [==============================] - 138s 94ms/sample - loss: 4.4583 - val_loss: 37.9096
+Epoch 22/100
+1464/1470 [============================>.] - ETA: 0s - loss: 4.0315
+Epoch 00022: val_loss did not improve from 19.97581
+1470/1470 [==============================] - 127s 87ms/sample - loss: 4.0429 - val_loss: 21.1941
+Epoch 23/100
+1464/1470 [============================>.] - ETA: 0s - loss: 3.5764
+Epoch 00023: val_loss improved from 19.97581 to 19.38325, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 138s 94ms/sample - loss: 3.5843 - val_loss: 19.3832
+Epoch 24/100
+1464/1470 [============================>.] - ETA: 0s - loss: 3.2724
+Epoch 00024: val_loss did not improve from 19.38325
+1470/1470 [==============================] - 129s 88ms/sample - loss: 3.2815 - val_loss: 43.6583
+Epoch 25/100
+1464/1470 [============================>.] - ETA: 0s - loss: 2.7958
+Epoch 00025: val_loss did not improve from 19.38325
+1470/1470 [==============================] - 130s 88ms/sample - loss: 2.7993 - val_loss: 20.3204
+Epoch 26/100
+1464/1470 [============================>.] - ETA: 0s - loss: 2.7288
+Epoch 00026: val_loss did not improve from 19.38325
+1470/1470 [==============================] - 134s 91ms/sample - loss: 2.7258 - val_loss: 20.4731
+Epoch 27/100
+1464/1470 [============================>.] - ETA: 0s - loss: 2.1100
+Epoch 00027: val_loss did not improve from 19.38325
+1470/1470 [==============================] - 126s 85ms/sample - loss: 2.1104 - val_loss: 22.3943
+Epoch 28/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.8392
+Epoch 00028: val_loss improved from 19.38325 to 19.37786, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 128s 87ms/sample - loss: 1.8389 - val_loss: 19.3779
+Epoch 29/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.4669
+Epoch 00029: val_loss did not improve from 19.37786
+1470/1470 [==============================] - 129s 88ms/sample - loss: 1.4692 - val_loss: 24.9910
+Epoch 30/100
+1464/1470 [============================>.] - ETA: 0s - loss: 3.2169
+Epoch 00030: val_loss did not improve from 19.37786
+1470/1470 [==============================] - 130s 88ms/sample - loss: 3.2150 - val_loss: 21.9126
+Epoch 31/100
+1464/1470 [============================>.] - ETA: 0s - loss: 2.0710
+Epoch 00031: val_loss did not improve from 19.37786
+1470/1470 [==============================] - 128s 87ms/sample - loss: 2.0798 - val_loss: 19.8829
+Epoch 32/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.6056
+Epoch 00032: val_loss did not improve from 19.37786
+1470/1470 [==============================] - 150s 102ms/sample - loss: 1.6060 - val_loss: 21.8487
+Epoch 33/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.5182
+Epoch 00033: val_loss did not improve from 19.37786
+1470/1470 [==============================] - 137s 93ms/sample - loss: 1.5195 - val_loss: 22.2428
+Epoch 34/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.1170
+Epoch 00034: val_loss did not improve from 19.37786
+1470/1470 [==============================] - 125s 85ms/sample - loss: 1.1154 - val_loss: 22.0276
+Epoch 35/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.6605
+Epoch 00035: val_loss improved from 19.37786 to 19.18450, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 128s 87ms/sample - loss: 0.6625 - val_loss: 19.1845
+Epoch 36/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.4395
+Epoch 00036: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 114s 78ms/sample - loss: 1.4398 - val_loss: 22.6938
+Epoch 37/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.5648
+Epoch 00037: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 113s 77ms/sample - loss: 1.5601 - val_loss: 23.2783
+Epoch 38/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.1406
+Epoch 00038: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 121s 82ms/sample - loss: 1.1399 - val_loss: 20.4713
+Epoch 39/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.6082
+Epoch 00039: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 153s 104ms/sample - loss: 0.6088 - val_loss: 19.5141
+Epoch 40/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.6247
+Epoch 00040: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 121s 82ms/sample - loss: 0.6255 - val_loss: 19.8904
+Epoch 41/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.4068
+Epoch 00041: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 127s 86ms/sample - loss: 0.4073 - val_loss: 23.2154
+Epoch 42/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.5064
+Epoch 00042: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 127s 86ms/sample - loss: 0.5071 - val_loss: 25.0341
+Epoch 43/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.5732
+Epoch 00043: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 156s 106ms/sample - loss: 1.5809 - val_loss: 29.5973
+Epoch 44/100
+1464/1470 [============================>.] - ETA: 0s - loss: 2.6621
+Epoch 00044: val_loss did not improve from 19.18450
+1470/1470 [==============================] - 129s 88ms/sample - loss: 2.6642 - val_loss: 30.7139
+Epoch 45/100
+1464/1470 [============================>.] - ETA: 0s - loss: 4.5077
+Epoch 00045: val_loss did not improve from 19.18450
+
+Epoch 00045: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+1470/1470 [==============================] - 117s 79ms/sample - loss: 4.5111 - val_loss: 31.0618
+Epoch 46/100
+1464/1470 [============================>.] - ETA: 0s - loss: 1.3942
+Epoch 00046: val_loss improved from 19.18450 to 17.89938, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 119s 81ms/sample - loss: 1.3916 - val_loss: 17.8994
+Epoch 47/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.5498
+Epoch 00047: val_loss improved from 17.89938 to 17.64474, saving model to checkpoint_weights.h5
+1470/1470 [==============================] - 127s 86ms/sample - loss: 0.5484 - val_loss: 17.6447
+Epoch 48/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.3723
+Epoch 00048: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 119s 81ms/sample - loss: 0.3714 - val_loss: 17.7793
+Epoch 49/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.2834
+Epoch 00049: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 111s 76ms/sample - loss: 0.2827 - val_loss: 17.7891
+Epoch 50/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.2473
+Epoch 00050: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 113s 77ms/sample - loss: 0.2468 - val_loss: 18.1021
+Epoch 51/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.2337
+Epoch 00051: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 114s 78ms/sample - loss: 0.2344 - val_loss: 18.1672
+Epoch 52/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.2081
+Epoch 00052: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 112s 76ms/sample - loss: 0.2079 - val_loss: 17.8796
+Epoch 53/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1694
+Epoch 00053: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 113s 77ms/sample - loss: 0.1693 - val_loss: 17.8377
+Epoch 54/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1526
+Epoch 00054: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 112s 76ms/sample - loss: 0.1523 - val_loss: 17.9337
+Epoch 55/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1340
+Epoch 00055: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 111s 76ms/sample - loss: 0.1337 - val_loss: 18.0581
+Epoch 56/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1293
+Epoch 00056: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 112s 76ms/sample - loss: 0.1295 - val_loss: 18.2389
+Epoch 57/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1176
+Epoch 00057: val_loss did not improve from 17.64474
+
+Epoch 00057: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+1470/1470 [==============================] - 111s 76ms/sample - loss: 0.1173 - val_loss: 18.2013
+Epoch 58/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1072
+Epoch 00058: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 112s 76ms/sample - loss: 0.1073 - val_loss: 18.1249
+Epoch 59/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1030
+Epoch 00059: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 112s 76ms/sample - loss: 0.1030 - val_loss: 18.0951
+Epoch 60/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.1001
+Epoch 00060: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 113s 77ms/sample - loss: 0.1000 - val_loss: 18.1819
+Epoch 61/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0976
+Epoch 00061: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 142s 97ms/sample - loss: 0.0976 - val_loss: 18.1484
+Epoch 62/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0955
+Epoch 00062: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 116s 79ms/sample - loss: 0.0953 - val_loss: 18.1299
+Epoch 63/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0936
+Epoch 00063: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 118s 80ms/sample - loss: 0.0934 - val_loss: 18.1156
+Epoch 64/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0903
+Epoch 00064: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 122s 83ms/sample - loss: 0.0904 - val_loss: 18.1837
+Epoch 65/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0923
+Epoch 00065: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 111s 76ms/sample - loss: 0.0922 - val_loss: 18.1799
+Epoch 66/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0903
+Epoch 00066: val_loss did not improve from 17.64474
+1470/1470 [==============================] - 110s 75ms/sample - loss: 0.0902 - val_loss: 18.1272
+Epoch 67/100
+1464/1470 [============================>.] - ETA: 0s - loss: 0.0844
+Epoch 00067: val_loss did not improve from 17.64474
+Restoring model weights from the end of the best epoch.
+
+Epoch 00067: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+1470/1470 [==============================] - 113s 77ms/sample - loss: 0.0844 - val_loss: 18.1395
+Epoch 00067: early stopping

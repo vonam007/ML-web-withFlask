@@ -21,3 +21,7 @@ If there are any change, re-run the app.
 try demo our app: https://vonam007.pythonanywhere.com/   
 
 -----------------------------
+###How to use model:   
+Step 1: check GPU by run check_gpu.py. You need to have GPU for training model   
+Step 2: run train_model.py   
+Step 3: run predict.py for prediction or run evaluation.py to evaluate model   
